@@ -19,6 +19,6 @@ do_build() {
 
 do_install() {
 	curl -s get.sdkman.io | bash
-	source "$HOME/.sdkman/bin/sdkman-init.sh"
+	source "${HAB_CACHE_SRC_PATH}/.sdkman/bin/sdkman-init.sh"
 	sdk install groovy
 }
