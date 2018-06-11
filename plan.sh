@@ -18,5 +18,6 @@ do_build() {
 }
 
 do_install() {
-	return 0;
+	curl -s get.sdkman.io | bash
+	sdk install groovy
 }
