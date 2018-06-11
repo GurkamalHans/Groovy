@@ -3,7 +3,7 @@ pkg_name=groovy
 pkg_version=0.1.0
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="Installs groovy"
-pkg_deps=(core/jre8 core/openssh core/curl)
+pkg_deps=(core/jre8 core/openssh core/curl core/unzip)
 
 do_verify() {
 	return 0;
